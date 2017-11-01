@@ -1,6 +1,6 @@
 
 header  {
- background-color: white;
+ background-color: rgb(253, 209, 247);
  top:0;
  height: 140px;
  width: 100%;
@@ -25,8 +25,6 @@ div.barra {
 display: inline-block;
 background-color: rgb(221, 220, 215);
 border-radius: 0.5rem;
-padding-left: 6rem;;
-
 }
 
 input {
@@ -38,6 +36,7 @@ input {
 
 div.box {
   display: inline-block;
+  margin-left: 4rem;
 
 }
 
@@ -46,6 +45,12 @@ display: inline-block;
 color: rgb(184, 196, 188);
 font-size: 20px;
 margin-left: 1rem;
+<<<<<<< HEAD
+=======
+}
+.fa {
+  padding: 1rem;
+>>>>>>> b81411e765353c0f5a9ba0a7809928a983736432
 }
 
 /* colocamos los elementos en linea*/
@@ -76,34 +81,36 @@ margin-left: 1rem;
  }
 
  section.box1 {
-  margin-top: 140px;
+  background: hsl(180, 75%, 71%);
+  margin-top: 150px;
   margin-left: 5%;
   margin-right: 5%;
+  
  }
 
   .contenedor {
-   width: 70rem;
+    width: 75rem;
+    columns: 4;
+    column-gap: 3rem;
  }
 
 .element {
  width: 220px;
  background: rgb(218, 235, 222);
- float: left;
- margin-right:20px;s
- margin-bottom: 20px;
- margin-top: 2rem;
+ margin-top: 7rem;
  border-radius: 1rem;
- box-shadow: 0 1px 2px 0 rgb(0, 0, 0);/*color plomo */
- }
+}
 
 img {
    border-radius: 1rem;
  }
 
 p {
+  color: slateblue;
   padding: 10px;
   font-size: 13px;
 }
-.element img{
-  width: 100%;
+
+html {
+  background: peachpuff;
 }
